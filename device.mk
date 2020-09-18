@@ -85,6 +85,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
+#FOD
+TARGET_HAS_FOD := true
+
 # Lineage Specific perms
 PRODUCT_COPY_FILES += \
     vendor/rr/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml

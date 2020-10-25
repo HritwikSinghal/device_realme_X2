@@ -53,6 +53,7 @@ public class DeviceSettings extends PreferenceFragment
     public static final String KEY_HBM_SWITCH = "hbm";
     public static final String KEY_DC_SWITCH = "dc";
     public static final String KEY_OTG_SWITCH = "otg";
+    public static final String KEY_ONC_SWITCH = "onc";
     public static final String KEY_GAME_SWITCH = "game";
 
     public static final String KEY_SETTINGS_PREFIX = "device_setting_";
@@ -61,6 +62,7 @@ public class DeviceSettings extends PreferenceFragment
     private static TwoStatePreference mDCModeSwitch;
     private static TwoStatePreference mSRGBModeSwitch;
     private static TwoStatePreference mOTGModeSwitch;
+    private static TwoStatePreference mONCModeSwitch;
     private static TwoStatePreference mGameModeSwitch;
 
     @Override
@@ -88,6 +90,11 @@ public class DeviceSettings extends PreferenceFragment
         mOTGModeSwitch.setEnabled(OTGModeSwitch.isSupported());
         mOTGModeSwitch.setChecked(OTGModeSwitch.isCurrentlyEnabled(this.getContext()));
         mOTGModeSwitch.setOnPreferenceChangeListener(new OTGModeSwitch());
+
+        mONCModeSwitch = (TwoStatePreference) findPreference(KEY_ONC_SWITCH);
+        mONCModeSwitch.setEnabled(NightChargeSwitch.isSupported());
+        mONCModeSwitch.setChecked(NightChargeSwitch.isCurrentlyEnabled(this.getContext()));
+        mONCModeSwitch.setOnPreferenceChangeListener(new NightChargeSwitch());
 
         mGameModeSwitch = (TwoStatePreference) findPreference(KEY_GAME_SWITCH);
         mGameModeSwitch.setEnabled(GameModeSwitch.isSupported());

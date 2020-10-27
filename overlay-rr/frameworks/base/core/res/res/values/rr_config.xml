@@ -18,4 +18,10 @@
     <!-- Whether device has VOOC charging support -->
     <bool name="config_hasVoocCharger">true</bool>
 
+    <!-- Default fod pressed icon -->
+    <integer name="config_pressed_fod_icon">6</integer>
+
+    <!-- Defines custom OEM sensor for pocket detection. -->
+    <string name="config_pocketJudgeVendorSensorName">qti.sensor.proximity_fake</string>
+
 </resources>

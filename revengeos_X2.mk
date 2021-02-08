@@ -7,6 +7,7 @@
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Inherit some common RevengeOS stuff.
+TARGET_SCREEN_DENSITY := 440
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080

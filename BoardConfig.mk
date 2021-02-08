@@ -164,3 +164,6 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
 -include vendor/realme/X2/BoardConfigVendor.mk
+
+# Display DPI
+TARGET_SCREEN_DENSITY := 440

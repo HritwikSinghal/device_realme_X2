@@ -20,8 +20,8 @@ PRODUCT_MANUFACTURER := realme
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="coral-user 11 RP1A.201105.002 6869500 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210305.006 7119741 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys"
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo

@@ -93,21 +93,21 @@ void setRMX(const unsigned int variant)
     prop[0] = {
         "RMX1991",
         "RMX1991CN",
-        "2020-08-05",
+        "2021-03-05",
     };
 
     //RMX992
     prop[1] = {
         "RMX1992",
         "RMX1992L1",
-        "2020-07-05",
+        "2021-03-05",
     };
 
     //RMX1993
     prop[2] = {
         "RMX1993",
         "RMX1993L1",
-        "2020-08-05",
+        "2021-03-05",
     };
 
     const auto set_ro_build_prop = [](const std::string &source,

@@ -54,7 +54,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GCamGo \
     Snap \
-    Firefox
+    Firefox \
+    AuroraStore
 
 # Common init scripts
 PRODUCT_PACKAGES += \

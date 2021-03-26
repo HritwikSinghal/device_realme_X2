@@ -14,7 +14,7 @@ include $(BUILD_PREBUILT)
 #Firefox
 include $(CLEAR_VARS)
 LOCAL_MODULE := Firefox
-LOCAL_SRC_FILES := system/priv-app/Firefox/Firefox_87_rc1.apk
+LOCAL_SRC_FILES := system/priv-app/Firefox/Firefox.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := 

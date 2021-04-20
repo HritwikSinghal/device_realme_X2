@@ -55,8 +55,10 @@
         <activity
             android:name=".DeviceSettingsActivity"
             android:label="@string/device_title">
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="1" /> 
             <intent-filter>
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
                 <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -64,17 +66,14 @@
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_homepage_settings" />
+                android:resource="@drawable/ic_parts_device" />
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.system" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/device_summary" />
-            <meta-data 
-                android:name="com.android.settings.order" 
-                android:value="1"/>
-        </activity>
+            </activity>
 
         <activity android:name=".DeviceSettings" />
 
@@ -170,3 +169,4 @@
         </service>
     </application>
 </manifest>
+

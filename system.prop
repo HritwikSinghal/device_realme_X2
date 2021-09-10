@@ -25,3 +25,10 @@ ro.config.dha_lmk_scale=0.545
 ro.config.dha_th_rate=2.3  
 ro.config.sdha_apps_bg_max=64  
 ro.config.sdha_apps_bg_min=8
+
+# Power Saving
+power.saving.mode=1
+pm.sleep_mode=1
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+

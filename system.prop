@@ -39,4 +39,6 @@ iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
 
 
+# Pre-rendering
+ro.vendor.perf.scroll_opt=true
 

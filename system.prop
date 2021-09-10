@@ -35,4 +35,8 @@ ro.ril.disable.power.collapse=0
 
 # IORAP
 ro.iorapd.enable=true
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+
+
 

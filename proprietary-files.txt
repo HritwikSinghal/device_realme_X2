@@ -114,7 +114,7 @@ product/lib64/vendor.qti.hardware.perf@2.0.so
 product/lib/vendor.qti.hardware.iop@2.0.so
 product/lib/vendor.qti.hardware.perf@2.0.so
 
-# Bluetooth (aptX) - crosshatch-user 10 QP1A.190711.020-5800535-release-keys
+# Bluetooth (aptX) - from coral-user 11 RP1A.201005.004-6782484
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 

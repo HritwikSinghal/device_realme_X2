@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="ISO-9059-1"?>
 <!-- Copyright (c) 2015-2018, The Linux Foundation. All rights reserved.    -->
 <!--                                                                        -->
 <!-- Redistribution and use in source and binary forms, with or without     -->
@@ -346,24 +346,24 @@
     <ctl name="TX SMIC MUX7" value="ZERO" />
 
     <!-- Volume controls -->
-    <ctl name="WSA_RX0 Digital Volume" value="84" />
-    <ctl name="WSA_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX0 Digital Volume" value="84" />
-    <ctl name="RX_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX2 Digital Volume" value="84" />
+    <ctl name="WSA_RX0 Digital Volume" value="90" />
+    <ctl name="WSA_RX1 Digital Volume" value="90" />
+    <ctl name="RX_RX0 Digital Volume" value="90" />
+    <ctl name="RX_RX1 Digital Volume" value="90" />
+    <ctl name="RX_RX2 Digital Volume" value="90" />
     <ctl name="HPHL Volume" value="15" />
     <ctl name="HPHR Volume" value="15" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
     <ctl name="EAR PA GAIN" value="G_4P5_DB" />
 
-    <ctl name="TX_DEC0 Volume" value="84" />
-    <ctl name="TX_DEC1 Volume" value="84" />
-    <ctl name="TX_DEC2 Volume" value="84" />
-    <ctl name="TX_DEC3 Volume" value="84" />
-    <ctl name="TX_DEC4 Volume" value="84" />
-    <ctl name="TX_DEC5 Volume" value="84" />
-    <ctl name="TX_DEC6 Volume" value="84" />
-    <ctl name="TX_DEC7 Volume" value="84" />
+    <ctl name="TX_DEC0 Volume" value="100" />
+    <ctl name="TX_DEC1 Volume" value="100" />
+    <ctl name="TX_DEC2 Volume" value="100" />
+    <ctl name="TX_DEC3 Volume" value="100" />
+    <ctl name="TX_DEC4 Volume" value="100" />
+    <ctl name="TX_DEC5 Volume" value="100" />
+    <ctl name="TX_DEC6 Volume" value="100" />
+    <ctl name="TX_DEC7 Volume" value="100" />
 
     <ctl name="ADC1 Volume" value="12" />
     <ctl name="ADC2 Volume" value="12" />
@@ -2999,13 +2999,13 @@
         <ctl name="TX DEC0 MUX" value="SWR_MIC" />
         <ctl name="TX_DEC0 Volume" value="84" />
         <ctl name="TX SMIC MUX0" value="ADC0" />
-        <ctl name="ADC1 Volume" value="6" />
+        <ctl name="ADC1 Volume" value="12" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
         <ctl name="TX DEC1 MUX" value="SWR_MIC" />
         <ctl name="TX_DEC1 Volume" value="84" />
         <ctl name="TX SMIC MUX1" value="ADC2" />
-        <ctl name="ADC2 Volume" value="6" />
+        <ctl name="ADC2 Volume" value="12" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC2_MIXER Switch" value="1" />
         <ctl name="ADC2 MUX" value="INP3" />

@@ -131,3 +131,6 @@ on property:persist.sys.device_provisioned=1
 
     # Restrict permissions to socket file to hide Magisk & co.
     chmod 440 /proc/net/unix
+
+    #Fix for TB in some roms
+    chmod 666 /mnt/media_rw/

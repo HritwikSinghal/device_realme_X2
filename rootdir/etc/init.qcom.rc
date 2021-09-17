@@ -133,4 +133,5 @@ on property:persist.sys.device_provisioned=1
     chmod 440 /proc/net/unix
 
     #Fix for TB in some roms
+    mkdir -p /mnt/media_rw/
     chmod 666 /mnt/media_rw/

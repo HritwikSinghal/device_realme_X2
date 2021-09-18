@@ -29,7 +29,7 @@ TARGET_LMKD_STATS_LOG := true
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosip
 
 # Properties
 -include $(LOCAL_PATH)/vendor_props.mk
@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
 
 # Lineage Specific perms
 PRODUCT_COPY_FILES += \
-    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    vendor/aosip/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # HIDL
 PRODUCT_PACKAGES += \

@@ -15,4 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X2.mk
+    $(LOCAL_DIR)/aosip_X2.mk
+
+
+COMMON_LUNCH_CHOICES := \
+       aosip_X2-userdebug \
+       aosip_X2-user \
+       aosip_X2-eng

@@ -1221,5 +1221,9 @@
        <!-- Screen off delay -->
     <integer name="config_screen_off_delay">0</integer>
 
+        <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">7</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
+
 
 </resources>

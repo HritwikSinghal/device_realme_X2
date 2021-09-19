@@ -24,7 +24,6 @@ struct x2_props
 {
     std::string device_build;
     std::string product_device;
-    std::string device_spl;
 };
 
 std::vector<std::string> ro_props_default_source_order = {
@@ -93,21 +92,18 @@ void setRMX(const unsigned int variant)
     prop[0] = {
         "RMX1991",
         "RMX1991CN",
-        "2021-03-05",
     };
 
     //RMX992
     prop[1] = {
         "RMX1992",
         "RMX1992L1",
-        "2021-03-05",
     };
 
     //RMX1993
     prop[2] = {
         "RMX1993",
         "RMX1993L1",
-        "2021-03-05",
     };
 
     const auto set_ro_build_prop = [](const std::string &source,
@@ -130,8 +126,6 @@ void setRMX(const unsigned int variant)
         set_ro_product_prop(source, "name", prop[variant].device_build.c_str());
     }
 
-    // All 3 variants get upadates at different time so let's handle it here.
-    property_override("ro.build.version.security_patch", prop[variant].device_spl.c_str());
 
     // RMX1993 has different ptoduct name due to oversea variants further being divided into spain and europe
     if (variant == 2)

@@ -42,3 +42,8 @@ iorapd.readahead.enable=true
 # Pre-rendering
 ro.vendor.perf.scroll_opt=true
 
+
+ro.havoc.device.name=Realme X2
+ro.havoc.group.url=https://t.me/+f6fvNbV7pNtiMDZl
+ro.havoc.maintainer=Hritwik
+ro.havoc.maintainer.username=ranacc1

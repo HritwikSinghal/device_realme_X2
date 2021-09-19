@@ -50,17 +50,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     BluetoothQti
 
-# Prebuilt apps
+# Camera
 PRODUCT_PACKAGES += \
     GCamGo \
     Snap \
     Firefox \
     AuroraStore
 
-# Prebuilt apps perms
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/system/etc/permissions/com.aurora.store.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.aurora.store.xml
-        
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.qcom.rc \

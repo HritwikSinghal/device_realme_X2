@@ -53,8 +53,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     GCamGo \
-    Snap \
-    Firefox
+    Snap
 
 # Common init scripts
 PRODUCT_PACKAGES += \

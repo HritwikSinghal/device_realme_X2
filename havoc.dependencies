@@ -1,16 +1,14 @@
 [
   {
     "repository"  : "android_device_realme_X2",
-    "target_path" : "device/realme/X2",
-    "branch"      : "eleven"
+    "target_path" : "device/realme/X2"
   },
   {
     "repository"  : "android_vendor_realme_X2",
-    "target_path" : "vendor/realme/X2",
-    "branch"      : "eleven"
+    "target_path" : "vendor/realme/X2"
   },
   {
-    "repository": "android_kernel_realme_X2",
-    "target_path": "kernel/realme/X2"
+    "repository": "android_kernel_realme_sm6150",
+    "target_path": "kernel/realme/sm6150"
   }
 ]

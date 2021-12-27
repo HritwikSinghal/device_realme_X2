@@ -19,6 +19,6 @@ PRODUCT_MANUFACTURER := realme
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210905.001.A1/7511028:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
